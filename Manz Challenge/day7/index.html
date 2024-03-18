@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Day 7 HTML Challenge</title>
+    <meta
+      name="description"
+      content="This page is the example of Day 7 of Manz Challenge"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Això es una prova de títol</h1>
+    <details name="acordeon">
+      <summary>Abrir para ver el párrafo 1</summary>
+      <p>
+        Lorem ipsum dolor sit amet
+        <a href="../day1/index.html">consectetur</a> adipisicing elit. Voluptas,
+        nobis esse id quam, dolorem perferendis temporibus eligendi autem sunt,
+        nisi recusandae provident est voluptate! Harum iusto beatae eligendi
+        fugiat error?
+      </p>
+    </details>
+    <details name="acordeon">
+      <summary>Abrir para ver el párrafo 2</summary>
+      <p>
+        Lorem ipsum dolor sit amet consectetur
+        <a href="https://www.google.com">adipisicing</a> elit. Corrupti deserunt
+        itaque, voluptatem numquam exercitationem nulla explicabo harum,
+        delectus, nobis quae quia perferendis asperiores optio dignissimos minus
+        obcaecati! Incidunt, error voluptatum.
+      </p>
+    </details>
+    <details name="acordeon">
+      <summary>Abrir para ver el párrafo 3</summary>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
+        deleniti quae tempora laboriosam quisquam nostrum aspernatur, rerum
+        nobis in sed praesentium sunt architecto fugiat vitae. Voluptate in sit
+        dolorum corporis.
+      </p>
+    </details>
+    <details name="acordeon">
+      <summary>Abrir para ver el gato</summary>
+      <img src="undraw_cat_epte.svg" height="200" width="200" alt="A cat" />
+    </details>
+    <details name="acordeon">
+      <summary>Picture tag with multiple sources</summary>
+      <p>
+        It loads an jpeg-xl image, if not supported it loads an avif image. If not, it falls back to jpg image
+      </p>
+      <picture>
+        <source srcset="dice.jxl" type="image/jxl">
+        <source srcset="dice.avif" type="image/avif">
+        <img src="dice.jpg">
+      </picture>
+    </details>
+  </body>
+</html>

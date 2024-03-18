@@ -1,4 +1,4 @@
-# Repo para guardar el progreso en el [challenge de html de Manz ](https://lenguajehtml.com/challenge/).
+# Repo to publish html challenges, from basic to advanced.
 
-### Info:
-[https://lenguajehtml.com](https://lenguajehtml.com)
+### Contents:
+- Manz html challenge

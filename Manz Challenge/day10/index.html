@@ -23,6 +23,7 @@
       <button onclick="changeChannel()" value="vwQ_ntw22FU">Video 5</button>
     </div>
 
+    <!-- Can be extracted to a separate js file. Inline for readability purposes -->
     <script>
       function changeChannel(videoId) {
         document.getElementById("youtubeVideo").src = "https://www.youtube-nocookie.com/embed/" + event.srcElement.value + "";

@@ -1,0 +1,20 @@
+h1 {
+    color: tomato;
+}
+
+#valueText {
+    color: tomato;
+    font-weight: bold;
+}
+
+kbd {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #eee;
+    padding: 5px 10px;
+    border-radius: 2px;
+    border: 1px solid ;
+    border-bottom: 3px solid ;
+    border-right: 2px solid ;
+    border-left: 2px solid ;
+    border-color: #9c9c9c;
+}

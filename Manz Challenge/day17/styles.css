@@ -1,0 +1,49 @@
+h1 {
+    color: tomato;
+}
+
+#valueText {
+    color: tomato;
+    font-weight: bold;
+}
+
+.userCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 300px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #eee;
+    padding: 5px 10px;
+    border-radius: 2px;
+    border: 1px solid ;
+    border-bottom: 3px solid ;
+    border-right: 2px solid ;
+    border-left: 2px solid ;
+    border-color: #9c9c9c;
+}
+
+.userCard img {
+    align-self: center;
+    width: 150px;
+    height: 150px;
+}
+
+.userCard .userInfo{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.userCard .userInfo h3{
+    grid-row: 1;
+    grid-column: 1/6;
+}
+
+.userCard .userInfo p:nth-child(even){
+    font-weight: bolder;
+    grid-column: 1/2;
+}
+
+.userCard .userInfo p:nth-child(odd){
+    grid-column: 3/4;
+}

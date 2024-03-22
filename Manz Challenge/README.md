@@ -23,7 +23,7 @@ Días completados:
 - [x] Day 14: Muestra un bloque de fragmento de código CSS en una página. Si quieres ir al máximo, añade una librería Javascript para añadirle resaltado de colores.
 - [x] Day 15: Crea una página con un video MP4 (no de youtube), que muestre una imagen de portada antes de darle a reproducir.
 - [x] Day 16: Muestra un texto con el atajo de teclado CTRL+ALT+SUPR y dale estilo para que parezcan teclas.
-- [ ] Day 17: Crea una card de usuario: username como título, un avatar de imagen, edad, país, nacimiento y enlace a su web.
+- [x] Day 17: Crea una card de usuario: username como título, un avatar de imagen, edad, país, nacimiento y enlace a su web.
 - [ ] Day 18: Crea un pequeño artículo de prensa con una noticia inventada. Usa etiquetas HTML semánticas.
 - [ ] Day 19: Crea una tabla con información. Incluye una cabecera y un pie de tabla. La última columna será de un color diferente.
 - [ ] Day 20: Crea un formulario para dejar un comentario en una página: Usuario y comentario de texto.
